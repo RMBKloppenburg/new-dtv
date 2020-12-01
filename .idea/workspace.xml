@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examen/database/migrations/2020_11_20_141127_create_lids_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +67,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen\database\migrations" />
+      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen\resources\views" />
+      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\new-dtv\examen" />
     </key>
@@ -83,7 +89,7 @@
       <updated>1606833210677</updated>
       <workItem from="1606833211840" duration="2055000" />
       <workItem from="1606847492838" duration="1665000" />
-      <workItem from="1606851171394" duration="273000" />
+      <workItem from="1606851171394" duration="2093000" />
     </task>
     <servers />
   </component>
