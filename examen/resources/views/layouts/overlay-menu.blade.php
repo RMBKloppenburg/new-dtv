@@ -7,7 +7,7 @@
                         <a href="/">Home <em>pagina</em></a>
                     </li>
                     <li>
-                        <a href="/about">Over <em>ons</em></a>
+                        <a href="/over-DTV">Over <em>ons</em></a>
                     </li>
                     <li>
                         <a href="{{ route('login') }}">login</a>

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examen/public/FrontEndAssets/img/tennis-wallpapers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen/resources/views/about.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/public/FrontEndAssets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/examen/public/FrontEndAssets/css/templatemo-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/layouts/overlay-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/layouts/overlay-menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/examen" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examen/public/FrontEndAssets/img" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,9 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new-dtv\examen\resources\views" />
       <recent name="C:\xampp\htdocs\new-dtv\examen\public\FrontendAssets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new-dtv\examen\public\FrontEndAssets\img" />
       <recent name="C:\xampp\htdocs\new-dtv\examen" />
     </key>
   </component>
@@ -84,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606833210677</updated>
       <workItem from="1606833211840" duration="2055000" />
-      <workItem from="1606847492838" duration="7349000" />
+      <workItem from="1606847492838" duration="10768000" />
     </task>
     <servers />
   </component>
@@ -111,5 +116,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606851232804" />
+    <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1606859102045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="260" width="604" height="520" key="find.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606859102045" />
   </component>
 </project>
