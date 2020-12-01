@@ -23,3 +23,16 @@ Route::get('/over-DTV', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/admin', function () {
+    return view('Backend.AdminIndex');
+});
+Route::get('/adminlogin', function () {
+    return view('Backend.AdminLogin');
+
+});Route::get('/usermanage', function () {
+    return view('Backend.AdminUserManage');
+
+});Route::get('/pref', function () {
+    return view('Backend.preferences');
+});
