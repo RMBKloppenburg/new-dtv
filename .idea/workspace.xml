@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examen/public/FrontendAssets/prepros-6.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen/public/FrontendAssets/tennis.mp4" afterDir="false" />
-    </list>
+    <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606833210677</updated>
       <workItem from="1606833211840" duration="2055000" />
-      <workItem from="1606847492838" duration="2083000" />
+      <workItem from="1606847492838" duration="2479000" />
     </task>
     <servers />
   </component>
