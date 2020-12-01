@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/over-DTV', function () {
+    return view('about');
+});
 
 Auth::routes();
 
