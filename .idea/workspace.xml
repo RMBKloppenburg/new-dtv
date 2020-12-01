@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/new dtv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new dtv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/examen/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen/public/FrontendAssets/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen/public/FrontendAssets/tennis.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new-dtv\examen\public\FrontendAssets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\new-dtv\examen" />
     </key>
@@ -82,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606833210677</updated>
       <workItem from="1606833211840" duration="2055000" />
-      <workItem from="1606847492838" duration="1665000" />
+      <workItem from="1606847492838" duration="2083000" />
     </task>
     <servers />
   </component>
