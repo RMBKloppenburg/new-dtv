@@ -1,22 +1,7 @@
-
-<div>
-    @if (Route::has('login'))
-        <div>
-            @auth
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ route('login') }}">Login</a>
-
-                @if (Route::has('register'))
-                    <a href="{{ route('register') }}">Register</a>
-                @endif
-            @endauth
-        </div>
-    @endif
-<div/>
     @extends('layouts.frontlayout')
 
     @section('content')
+{{--        mp4 playing--}}
         <div id="video-container">
             <div class="video-overlay"></div>
             <div class="video-content">
@@ -35,7 +20,7 @@
             </video>
         </div>
 
-
+{{--pictures--}}
         <div class="full-screen-portfolio" id="portfolio">
             <div class="container-fluid">
                 <div class="col-md-4 col-sm-6">
