@@ -42,12 +42,12 @@ class BaanController extends Controller
 
     public function update(Request $request)
     {
-        $data = Baan::find($request->id);
-        $data->afmetingen = $request->afmetingen;
-        $data->vloer = $request->vloer;
-        $data->checkdatum = $request->checkdatum;
-        $data->servicedatum = $request->servicedatum;
-        $data->update($request->all());
+        $baan = Baan::find($request->id);
+        $baan->afmetingen = $request->afmetingen;
+        $baan->vloer = $request->vloer;
+        $baan->checkdatum = $request->checkdatum;
+        $baan->servicedatum = $request->servicedatum;
+        $baan->update($request->all());
         return redirect()->route('adminbaans');
     }
 
