@@ -21,7 +21,7 @@ class CreateKantinesTable extends Migration
             // Catogorie zoals brood
             $table->String("catogorie");
             //Merk bedrijf, zoals coca cola
-            $table->String("bedrijf");
+            $table->String("bedrijf")->nullable();
             //Prijs van het product
             $table->Double("prijs");
             //1 = Snack, 2 = Drank

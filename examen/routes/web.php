@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\KantineController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,3 +54,18 @@ Route::get('/adminlogin', function () {
 });Route::get('/pref', function () {
     return view('Backend.preferences');
 });
+
+//Frontend Kantine
+//Show
+Route::get("/kantine", [KantineController::class, "show"])->name("klantkantine");
+//Backend Kantine
+//Index
+Route::get("/adminkantine", [KantineController::class, "index"])->name("adminkantine");
+//Create + Store
+Route::post("/admincreatekantine", [KantineController::class, "store"])->name("storekantine");
+Route::get("/admincreatekantine", [KantineController::class, "create"])->name("createkantine");
+//Edit + Update
+Route::get("/admineditkantine/{kantine}/edit", [KantineController::class, "edit"])->name("editkantine");
+Route::put("/admineditkantine/{kantine}/edit", [KantineController::class, "update"])->name("updatekantine");
+//Delete
+Route::delete("/kantine/{kantine}", [KantineController::class, "destroy"])->name("deleteKantine");
