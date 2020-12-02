@@ -17,10 +17,10 @@ class CreateBaansTable extends Migration
         {
             //baancode
             $table->id();
-            $table->string("afmetingen");
-            $table->string("vloer");
-            $table->date("checkdatum")->nullable();
-            $table->date("servicedatum")->nullable();
+            $table->string('afmetingen');
+            $table->string('vloer');
+            $table->date('checkdatum')->nullable();
+            $table->date('servicedatum')->nullable();
             $table->timestamps();
 
         });

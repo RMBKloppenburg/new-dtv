@@ -24,6 +24,12 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+
+
+
+//admin
+Route::get('/adminbaan', [App\Http\Controllers\BaanController::class, 'index'])->name('adminbaans');
+
 Route::get('/admin', function () {
     return view('Backend.AdminIndex');
 });
