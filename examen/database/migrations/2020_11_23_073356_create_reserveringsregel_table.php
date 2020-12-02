@@ -14,7 +14,7 @@ class CreateReserveringsregelTable extends Migration
     public function up()
     {
         Schema::create('reserveringsregel', function (Blueprint $table) {
-            $table->foreignId("lidid")->constrained("lids");
+            $table->foreignId("userid")->constrained("users");
             $table->foreignId("reservingid")->constrained("reserverings");
             $table->timestamps();
             //foreign key example

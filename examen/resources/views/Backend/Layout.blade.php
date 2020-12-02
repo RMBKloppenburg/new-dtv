@@ -12,9 +12,10 @@
 	https://templatemo.com/tm-455-visual-admin
 	-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="BackEndassets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="BackEndassets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="BackEndassets/css/templatemo-style.css" rel="stylesheet">
+{{--	<link href="BackEndassets/css/font-awesome.min.css" rel="stylesheet">--}}
+	<link href="{{asset('BackEndassets/css/font-awesome.min.css')}}" rel="stylesheet">
+	<link href="{{asset('BackEndassets/css/bootstrap.min.css')}}" rel="stylesheet">
+	<link href="{{asset('BackEndassets/css/templatemo-style.css')}}" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -30,26 +31,18 @@
 	<div class="templatemo-sidebar">
 		<header class="templatemo-site-header">
 			<div class="square"></div>
-			<h1>Visual Admin</h1>
+			<h1>DTV Admin</h1>
 		</header>
 		<div class="profile-photo-container">
 			<img src="BackEndassets/images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
 			<div class="profile-photo-overlay"></div>
 		</div>
-		<!-- Search box -->
-		<form class="templatemo-search-form" role="search">
-			<div class="input-group">
-				<button type="submit" class="fa fa-search"></button>
-				<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
-			</div>
-		</form>
-		<div class="mobile-menu-icon">
-			<i class="fa fa-bars"></i>
-		</div>
+
 		<nav class="templatemo-left-nav">
 			<ul>
 				<li><a href="/admin" class="active"><i class="fa fa-home fa-fw"></i>Dashboard</a></li>
 				<li><a href="/usermanage"><i class="fa fa-users fa-fw"></i>Manage Users</a></li>
+				<li><a href="{{route('adminbaans')}}"><i class="fa fa-sliders fa-fw"></i>Baanen</a></li>
 				<li><a href="/pref"><i class="fa fa-sliders fa-fw"></i>Preferences</a></li>
 				<li><a href="/adminlogin"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>
 			</ul>
@@ -59,8 +52,12 @@
 	<div class="templatemo-content col-1 light-gray-bg">
 		<div class="templatemo-top-nav-container">
 			<div class="row">
-				
+
 			</div>
 		</div>
 
 		@yield("content")
+    </div>
+</div>
+</body>
+</html><
