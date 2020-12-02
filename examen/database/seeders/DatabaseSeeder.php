@@ -47,7 +47,6 @@ class DatabaseSeeder extends Seeder
 		([
 			'naam' => "Broodje Kip Chili",
 			'catogorie' => "Brood",
-			'bedrijf' => "DTV",
 			'prijs' => 4.99,
 			'soort' => 1,
 			'hoeveelheid' => 12,
@@ -58,7 +57,6 @@ class DatabaseSeeder extends Seeder
 		([
 			'naam' => "Pepsi Cola Max",
 			'catogorie' => "Cola",
-			'bedrijf' => "Pepsi",
 			'prijs' => 2.45,
 			'soort' => 2,
 			'hoeveelheid' => 47,
@@ -69,7 +67,6 @@ class DatabaseSeeder extends Seeder
 		([
 			'naam' => "Kip Sate",
 			'catogorie' => "Kip",
-			'bedrijf' => "DTV",
 			'prijs' => 3.49,
 			'soort' => 1,
 			'hoeveelheid' => 22,
@@ -78,9 +75,8 @@ class DatabaseSeeder extends Seeder
 
 		DB::table("kantines")->insert
 		([
-			'naam' => "cappuccino",
+			'naam' => "Cappuccino",
 			'catogorie' => "Koffie",
-			'bedrijf' => "DTV",
 			'prijs' => 2.99,
 			'soort' => 2,
 			'hoeveelheid' => 56,

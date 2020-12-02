@@ -14,7 +14,7 @@
 							<td><a href="" class="white-text templatemo-sort-by">ID <span class="caret"></span></a></td>
 							<td><a href="" class="white-text templatemo-sort-by">Product <span class="caret"></span></a></td>
 							<td><a href="" class="white-text templatemo-sort-by">Catogorie <span class="caret"></span></a></td>
-							<td><a href="" class="white-text templatemo-sort-by">Bedrijf <span class="caret"></span></a></td>
+							<!--<td><a href="" class="white-text templatemo-sort-by">Bedrijf <span class="caret"></span></a></td>-->
 							<td><a href="" class="white-text templatemo-sort-by">Prijs <span class="caret"></span></a></td>
 							<td><a href="" class="white-text templatemo-sort-by">Soort <span class="caret"></span></a></td>
 							<td><a href="" class="white-text templatemo-sort-by">Hoeveelheid <span class="caret"></span></a></td>
@@ -30,7 +30,6 @@
 								<td>{{$product->id}}</td>
 								<td>{{$product->naam}}</td>
 								<td>{{$product->catogorie}}</td>
-								<td>{{$product->bedrijf}}</td>
 								<td>{{$product->prijs}}</td>
                                 @if($product->soort == 1)
                                     <td>Snack</td>

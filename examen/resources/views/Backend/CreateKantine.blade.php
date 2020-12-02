@@ -8,8 +8,8 @@
 		<input type="text" id="naam" name="naam"> <br>
 		<label>Catogorie</label> <br>
 		<input type="text" id="catogorie" name="catogorie"> <br>
-		<label>Bedrijf</label> <br>
-		<input type="text" id="bedrijf" name="bedrijf"> <br>
+		<!--<label>Bedrijf</label> <br>
+		<input type="text" id="bedrijf" name="bedrijf"> <br>-->
 		<label>Prijs</label> <br>
 		<input type="text" id="prijs" name="prijs"> <br>
 		<label>Soort</label> <br>
@@ -17,6 +17,7 @@
             <option value="1">Snack</option>
             <option value="2">Drank</option>
         </select>
+        <br>
         <br>
 		<label>Hoeveelheid</label> <br>
 		<input type="number" id="hoeveelheid" name="hoeveelheid"> <br>
