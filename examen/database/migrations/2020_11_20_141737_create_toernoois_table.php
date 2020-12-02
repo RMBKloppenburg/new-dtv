@@ -20,7 +20,7 @@ class CreateToernooisTable extends Migration
             //Baancode
             $table->foreignId("baancode")->constrained("baans");
             //lid nummer
-            $table->foreignId("lidid")->constrained("lids");
+            $table->foreignId("userid")->constrained("users");
             //toernooi beschrijving
             $table->text("beschrijving")->nullable();
             //datum van het toernooi
