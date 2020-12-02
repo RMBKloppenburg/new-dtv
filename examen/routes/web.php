@@ -33,8 +33,10 @@ Route::get('/adminbaan', [App\Http\Controllers\BaanController::class, 'index'])-
 Route::get('/adminbaan-create', [App\Http\Controllers\BaanController::class, 'indexCreate'])->name('createbaan');
 Route::post('/adminbaan-create', [App\Http\Controllers\BaanController::class, 'create'])->name('createpostbaan');
 
-Route::put('/adminbaan-edit{baan}', [App\Http\Controllers\BaanController::class, 'update'])->name('editpostbaan');
-Route::get('/adminbaan-edit{baan}', [App\Http\Controllers\BaanController::class, 'edit'])->name('editbaan');
+Route::get('/adminbaan-edit/{id}', [App\Http\Controllers\BaanController::class, 'edit'])->name('editbaan');
+
+Route::post('/adminbaan-edit/{id}', [App\Http\Controllers\BaanController::class, 'update'])->name('editpostbaan');
+
 
 Route::delete('/adminbaan{baan}', [App\Http\Controllers\BaanController::class, 'destroy'])->name('destroybaan');
 

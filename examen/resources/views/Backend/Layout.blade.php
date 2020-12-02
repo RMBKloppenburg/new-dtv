@@ -12,9 +12,10 @@
 	https://templatemo.com/tm-455-visual-admin
 	-->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
-	<link href="BackEndassets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="BackEndassets/css/bootstrap.min.css" rel="stylesheet">
-	<link href="BackEndassets/css/templatemo-style.css" rel="stylesheet">
+{{--	<link href="BackEndassets/css/font-awesome.min.css" rel="stylesheet">--}}
+	<link href="{{asset('BackEndassets/css/font-awesome.min.css')}}" rel="stylesheet">
+	<link href="{{asset('BackEndassets/css/bootstrap.min.css')}}" rel="stylesheet">
+	<link href="{{asset('BackEndassets/css/templatemo-style.css')}}" rel="stylesheet">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -56,3 +57,7 @@
 		</div>
 
 		@yield("content")
+    </div>
+</div>
+</body>
+</html><

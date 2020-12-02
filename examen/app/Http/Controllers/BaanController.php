@@ -11,8 +11,9 @@ class BaanController extends Controller
     public function index()
     {
         $baans = DB::table('baans')->get();
-        return view("Backend.AdminBaanManage",["baans" => $baans]);
+        return view("Backend.AdminBaanManage", ["baans" => $baans]);
     }
+
     public function indexCreate()
     {
         return view('Backend.AdminBaanCreate');
@@ -29,27 +30,30 @@ class BaanController extends Controller
         return redirect()->route('adminbaans');
     }
 
-    public function edit(Baan $baan)
+
+    public function edit($id)
     {
-        return view('Backend.AdminBaanEdit');
+        //dd($id);
+        $baan = new Baan();
+        $baan = $baan->find($id)->first();
+
+        return view('Backend.AdminBaanEdit', ['banen' => $baan]);
     }
 
-    public function update(Request $request,Baan $baan)
+    public function update(Request $request)
     {
-        $data= $request->validate([
-            'afmetingen'=>'required',
-            'vloer'=>'required',
-            'checkdatum'=>'required',
-            'servicedatum'=>'required',
-        ]);
-        $baan->update($request->all());
+        $data = Baan::find($request->id);
+        $data->afmetingen = $request->afmetingen;
+        $data->vloer = $request->vloer;
+        $data->checkdatum = $request->checkdatum;
+        $data->servicedatum = $request->servicedatum;
+        $data->update($request->all());
         return redirect()->route('adminbaans');
     }
 
-
     public function destroy($id)
     {
-        Baan::where('id',$id)->delete();
+        Baan::where('id', $id)->delete();
         return redirect()->route('adminbaans');
     }
 

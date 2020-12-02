@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanEdit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/app/Models/baan.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Models/Baan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanCreate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanCreate.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanEdit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanEdit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanManage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanManage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,11 +69,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\new-dtv\examen\resources\views\Backend" />
-      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen" />
-      <recent name="C:\xampp\htdocs\new-dtv\examen" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\new-dtv\examen\app\Models" />
       <recent name="C:\xampp\htdocs\new-dtv\examen\app" />
@@ -82,6 +76,17 @@
       <recent name="C:\xampp\htdocs\new-dtv\examen\resources\views" />
       <recent name="C:\xampp\htdocs\new-dtv\examen\public\FrontendAssets" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new-dtv\examen\resources\views\Backend" />
+      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen" />
+      <recent name="C:\xampp\htdocs\new-dtv\examen" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
