@@ -43,6 +43,7 @@
 				<li><a href="/admin" class="active"><i class="fa fa-home fa-fw"></i>Dashboard</a></li>
 				<li><a href="/usermanage"><i class="fa fa-users fa-fw"></i>Manage Users</a></li>
 				<li><a href="{{route('adminbaans')}}"><i class="fa fa-sliders fa-fw"></i>Baanen</a></li>
+				<li><a href="{{route('adminkantine')}}"><i class="fa fa-sliders fa-fw"></i>Kantine</a></li>
 				<li><a href="/pref"><i class="fa fa-sliders fa-fw"></i>Preferences</a></li>
 				<li><a href="/adminlogin"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>
 			</ul>

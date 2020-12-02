@@ -10,6 +10,9 @@
                         <a href="/over-DTV">Over <em>ons</em></a>
                     </li>
                     <li>
+                        <a href="{{route('klantkantine')}}">Kantine</a>
+                    </li>
+                    <li>
                         <a href="{{ route('login') }}">login</a>
                     </li>
                     <li>
