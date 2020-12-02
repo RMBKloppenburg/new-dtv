@@ -12,7 +12,10 @@ class BaanController extends Controller
     {
         $baans = DB::table('baans')->get();
         return view("Backend.AdminBaanManage",["baans" => $baans]);
-
+    }
+    public function indexCreate()
+    {
+        return view('Backend.AdminBaanCreate');
     }
     //
 }
