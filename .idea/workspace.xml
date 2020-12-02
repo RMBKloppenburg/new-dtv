@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanEdit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanEdit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanManage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanManage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

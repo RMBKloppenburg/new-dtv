@@ -3,7 +3,7 @@
 @section("content")
     <div class="templatemo-content-container">
         <div class="panel panel-default margin-10">
-            <div class="panel-heading"><h2 class="text-uppercase">Create baan</h2></div>
+            <div class="panel-heading"><h2 class="text-uppercase">Edit baan</h2></div>
             <div class="panel-body">
 
                 {{--                register form--}}
