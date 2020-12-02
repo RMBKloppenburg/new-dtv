@@ -30,6 +30,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 //admin
 Route::get('/adminbaan', [App\Http\Controllers\BaanController::class, 'index'])->name('adminbaans');
 Route::get('/adminbaan-create', [App\Http\Controllers\BaanController::class, 'indexCreate'])->name('createbaan');
+Route::get('/adminbaan-create', [App\Http\Controllers\BaanController::class, 'CREATE'])->name('createpostbaan');
+
 Route::get('/admin', function () {
     return view('Backend.AdminIndex');
 });

@@ -18,7 +18,7 @@
             <div class="panel-body">
 
                 {{--                register form--}}
-                <form method="POST" action="" class="templatemo-login-form">
+                <form method="POST" action="createpostbaan" class="templatemo-login-form">
 {{--                    afmetingen--}}
                     <div class="form-group">
                         <label >Afmetingen</label>

@@ -17,5 +17,20 @@ class BaanController extends Controller
     {
         return view('Backend.AdminBaanCreate');
     }
+    public function create(Request $request)
+    {
+        $data =  $request->validate([
+            'name' => 'required',
+            'specie' => 'required',
+            'gender' => 'required',
+        ]);
+
+        $id = DB::table('animals')->insertGetId([
+            'name' => $data['name'],
+            'specie' => $data['specie'],
+            'gender' => $data['gender'],
+        ]);
+        return redirect('all-zooanimals');
+    }
     //
 }
