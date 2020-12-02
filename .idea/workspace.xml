@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/kantine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/kantine.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +97,7 @@
       <workItem from="1606847492838" duration="1665000" />
       <workItem from="1606851171394" duration="4986000" />
       <workItem from="1606923962502" duration="907000" />
-      <workItem from="1606939433175" duration="2575000" />
+      <workItem from="1606939433175" duration="2719000" />
     </task>
     <servers />
   </component>

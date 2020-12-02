@@ -35,6 +35,8 @@
                                 <td>Snack</td>
                             @elseif($product->soort == 2)
                                 <td>Drank</td>
+                            @else
+                                <td>Onbekend</td>
                             @endif
 						</tr>
 					@endforeach
