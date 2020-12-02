@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanEdit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Models/baan.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Models/Baan.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanCreate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanCreate.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanManage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/AdminBaanManage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
@@ -110,6 +112,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606852667079" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606880052192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606880052192" />
     <state x="496" y="88" key="CommitChangelistDialog2" timestamp="1606848804701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,10 +128,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606851232804" />
-    <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1606859102045">
+    <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1606880654416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="260" width="604" height="520" key="find.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606859102045" />
+    <state x="658" y="260" width="604" height="520" key="find.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606880654416" />
     <state x="623" y="225" key="search.everywhere.popup" timestamp="1606872565000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,44 +1,34 @@
 @extends("Backend.Layout")
 
 @section("content")
-
-    @if ($errors->any())
-        <div class="alert alert-danger">
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-    @endif
-
     <div class="templatemo-content-container">
         <div class="panel panel-default margin-10">
             <div class="panel-heading"><h2 class="text-uppercase">Create baan</h2></div>
             <div class="panel-body">
 
                 {{--                register form--}}
-                <form method="POST" action="{{route('createpostbaan')}}" class="templatemo-login-form">
+                <form method="POST" action="{{route('editpostbaan',[$baan->id])}}" class="templatemo-login-form">
                     @csrf
+                    @method('Put')
 {{--                    afmetingen--}}
                     <div class="form-group">
                         <label >Afmetingen</label>
-                        <input type="text"  name="afmetingen" class="form-control" placeholder="255x300">
+                        <input type="text"  value="{{$baan->afmetingen}}" name="afmetingen" class="form-control ">
                     </div>
 {{--                    vloer naam--}}
                     <div class="form-group">
                         <label >Vloer naam</label>
-                        <input type="text" name="vloer" class="form-control" placeholder="b2">
+                        <input type="text" value="{{$baan->vloer}}" name="vloer" class="form-control ">
                     </div>
 {{--                    check datum--}}
                     <div class="form-group">
                         <label>Check datum</label>
-                        <input type="date" name="checkdatum" class="form-control" placeholder="dd-mm-yyyy">
+                        <input type="date" value="{{$baan->checkdatum}}" name="checkdatum" class="form-control ">
                     </div>
 {{--                    service datum--}}
                     <div class="form-group">
                         <label>Service datum</label>
-                        <input type="date" name="servicedatum" class="form-control" placeholder="dd-mm-yyyy">
+                        <input type="date" value="{{$baan->servicedatum}}" name="servicedatum" class="form-control">
                     </div>
                     <div class="form-group">
                         <button type="submit" class="templatemo-blue-button">Toevoegen</button>
