@@ -31,7 +31,11 @@
 							<!-- Hier wordt elk product gegeven -->
 							<td>{{$product->naam}}</td>
 							<td>{{$product->prijs}}</td>
-							<td>{{$product->soort}}</td>
+                            @if($product->soort == 1)
+                                <td>Snack</td>
+                            @elseif($product->soort == 2)
+                                <td>Drank</td>
+                            @endif
 						</tr>
 					@endforeach
 					</tbody>
