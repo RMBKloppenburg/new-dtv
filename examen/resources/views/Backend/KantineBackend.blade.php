@@ -32,7 +32,13 @@
 								<td>{{$product->catogorie}}</td>
 								<td>{{$product->bedrijf}}</td>
 								<td>{{$product->prijs}}</td>
-								<td>{{$product->soort}}</td>
+                                @if($product->soort == 1)
+                                    <td>Snack</td>
+                                @elseif($product->soort == 2)
+                                    <td>Drank</td>
+                                @else
+                                    <td>Onbekend</td>
+                                @endif
 								<td>{{$product->hoeveelheid}}</td>
 								<td><a href="{{ route('editkantine', [$product->id]) }}" class="templatemo-edit-btn">Edit</a></td>
 								<td>
