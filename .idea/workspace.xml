@@ -4,6 +4,9 @@
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/KantineController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/KantineController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/database/migrations/2020_11_20_141737_create_toernoois_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/database/migrations/2020_11_20_141737_create_toernoois_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +100,8 @@
       <workItem from="1606847492838" duration="10768000" />
       <workItem from="1606847492838" duration="1665000" />
       <workItem from="1606851171394" duration="4986000" />
-      <workItem from="1606923962502" duration="841000" />
+      <workItem from="1606923962502" duration="907000" />
+      <workItem from="1606939433175" duration="1489000" />
     </task>
     <servers />
   </component>
@@ -113,10 +117,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606852667079" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606924659037">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606940785760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606924659037" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606940785760" />
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606880052192">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

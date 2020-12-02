@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\kantine;
 use Illuminate\Http\Request;
 
 class KantineController extends Controller
@@ -148,10 +149,6 @@ class KantineController extends Controller
         //en dat vergelijkt hij met $kantine
 
         kantine::where("id", $kantine)->delete();
-
-        //Outdated
-        //$kantine->delete();
-        //dd($kantine);
 
         return redirect()->route('adminkantine');
     }

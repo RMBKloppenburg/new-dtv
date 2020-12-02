@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
 		//Test data voor de LID tabel
+        /**
 		DB::table("lids")->insert
 		([
 			'voornaam' => "Rick",
@@ -33,7 +34,7 @@ class DatabaseSeeder extends Seeder
 			//'lidsindsdatum' => Carbon::create('2020', '11', '26'),
 
 		]);
-
+        */
 		DB::table("baans")->insert
 		([
 			'afmetingen' => "60x60",
@@ -97,7 +98,7 @@ class DatabaseSeeder extends Seeder
 		([
 			//
 			'baancode' => "1",
-			'lidid' => "1",
+			//'lidid' => "1",
 			'beschrijving' => "Dit is de eerste toernooi",
 			'toernooidatum' => Carbon::tomorrow(),
 		]);
