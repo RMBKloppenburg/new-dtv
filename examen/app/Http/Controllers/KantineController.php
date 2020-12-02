@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\kantine;
 use Illuminate\Http\Request;
 
-class antineController extends Controller
+class KantineController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,13 +14,13 @@ class antineController extends Controller
     public function index()
     {
         //index gerelateerd
-		//return view('Backend.KantineBackend', compact('kantines'));
-		$kantine = \DB::table('kantines')->get();
-		return view("Backend.KantineBackend",
-		[
-		"kantine" => $kantine
-		]
-		);
+        //return view('Backend.KantineBackend', compact('kantines'));
+        $kantine = \DB::table('kantines')->get();
+        return view("Backend.KantineBackend",
+            [
+                "kantine" => $kantine
+            ]
+        );
     }
 
     /**
@@ -32,7 +31,7 @@ class antineController extends Controller
     public function create()
     {
         //aanmaken :)
-		return view('Backend.createKantine');
+        return view('Backend.createKantine');
     }
 
     /**
@@ -43,32 +42,32 @@ class antineController extends Controller
      */
     public function store(Request $request)
     {
-    	//dd($request->all());
+        //dd($request->all());
         //Opslaan van de aangemaakte data
 
-		Kantine::create(request()->validate(
-			[
-				"naam" => 'required',
-				'catogorie' => 'required',
-				'bedrijf' => 'required',
-				'prijs' => 'required',
-				'soort' => 'required',
-				'hoeveelheid' => 'required'
-			]));
-		return redirect()->route('adminkantine');
+        Kantine::create(request()->validate(
+            [
+                "naam" => 'required',
+                'catogorie' => 'required',
+                'bedrijf' => 'required',
+                'prijs' => 'required',
+                'soort' => 'required',
+                'hoeveelheid' => 'required'
+            ]));
+        return redirect()->route('adminkantine');
 
-		/**
-		$request->validate(
-		[
-		"naam" => 'required',
-		'catogorie' => 'required',
-		'bedrijf' => 'required',
-		'prijs' => 'required',
-		'soort' => 'required',
-		'hoeveelheid' => 'required'
-		]);
-		Kantine::create($request->all());
-		return redirect()->route('kantine');*/
+        /**
+        $request->validate(
+        [
+        "naam" => 'required',
+        'catogorie' => 'required',
+        'bedrijf' => 'required',
+        'prijs' => 'required',
+        'soort' => 'required',
+        'hoeveelheid' => 'required'
+        ]);
+        Kantine::create($request->all());
+        return redirect()->route('kantine');*/
     }
 
     /**
@@ -80,13 +79,13 @@ class antineController extends Controller
     public function show(kantine $kantine)
     {
         //
-		//return view('Backend.KantineBackend', compact('kantine'));
-		$kantine = \DB::table('kantines')->get();
-		return view("Frontend.kantine",
-			[
-				"kantine" => $kantine
-			]
-		);
+        //return view('Backend.KantineBackend', compact('kantine'));
+        $kantine = \DB::table('kantines')->get();
+        return view("Frontend.kantine",
+            [
+                "kantine" => $kantine
+            ]
+        );
     }
 
     /**
@@ -98,7 +97,7 @@ class antineController extends Controller
     public function edit(kantine $kantine)
     {
         //
-		return view('Backend.EditKantine', compact("kantine"));
+        return view('Backend.EditKantine', compact("kantine"));
     }
 
     /**
@@ -111,30 +110,29 @@ class antineController extends Controller
     public function update(Request $request, kantine $kantine)
     {
         //Bijwerken van de het product
-		$kantine->update(request()->validate(
-			[
-				"naam" => 'required',
-				'catogorie' => 'required',
-				'bedrijf' => 'required',
-				'prijs' => 'required',
-				'soort' => 'required',
-				'hoeveelheid' => 'required'
-			]));
-		return redirect()->route('adminkantine');
-		/**
-		$request->validate(
-			[
-				"naam" => 'required',
-				'catogorie' => 'required',
-				'bedrijf' => 'required',
-				'prijs' => 'required',
-				'soort' => 'required',
-				'hoeveelheid' => 'required'
-			]);
-
-		$kantine->update($request->all());
-		return redirect()->route('adminkantine');
-		 */
+        $kantine->update(request()->validate(
+            [
+                "naam" => 'required',
+                'catogorie' => 'required',
+                'bedrijf' => 'required',
+                'prijs' => 'required',
+                'soort' => 'required',
+                'hoeveelheid' => 'required'
+            ]));
+        return redirect()->route('adminkantine');
+        /**
+        $request->validate(
+        [
+        "naam" => 'required',
+        'catogorie' => 'required',
+        'bedrijf' => 'required',
+        'prijs' => 'required',
+        'soort' => 'required',
+        'hoeveelheid' => 'required'
+        ]);
+        $kantine->update($request->all());
+        return redirect()->route('adminkantine');
+         */
     }
 
     /**
@@ -146,15 +144,15 @@ class antineController extends Controller
     public function destroy($kantine)
     {
         //verwijderen product
-		//Hij gaat in de kantine model (waar de database tabel staat) en kijkt voor ID
-		//en dat vergelijkt hij met $kantine
+        //Hij gaat in de kantine model (waar de database tabel staat) en kijkt voor ID
+        //en dat vergelijkt hij met $kantine
 
-		kantine::where("id", $kantine)->delete();
+        kantine::where("id", $kantine)->delete();
 
-		//Outdated
-		//$kantine->delete();
-		//dd($kantine);
+        //Outdated
+        //$kantine->delete();
+        //dd($kantine);
 
-		return redirect()->route('adminkantine');
+        return redirect()->route('adminkantine');
     }
 }
