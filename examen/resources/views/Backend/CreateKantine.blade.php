@@ -13,7 +13,11 @@
 		<label>Prijs</label> <br>
 		<input type="text" id="prijs" name="prijs"> <br>
 		<label>Soort</label> <br>
-		<input type="number" id="soort" name="soort"> <br>
+		<select id="soort" name="soort">
+            <option value="1">Snack</option>
+            <option value="2">Drank</option>
+        </select>
+        <br>
 		<label>Hoeveelheid</label> <br>
 		<input type="number" id="hoeveelheid" name="hoeveelheid"> <br>
 		<br>
