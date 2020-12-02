@@ -82,7 +82,7 @@ class KantineController extends Controller
         //
         //return view('Backend.KantineBackend', compact('kantine'));
         $kantine = \DB::table('kantines')->get();
-        return view("Frontend.kantine",
+        return view("kantine",
             [
                 "kantine" => $kantine
             ]
