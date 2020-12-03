@@ -1,17 +1,17 @@
-@extends('layout')
+@extends("Backend.Layout")
 @section('content')
 
     <div id="wrapper">
         <h1>edit User</h1>
 
-        <form method="POST" action="{{route("userpostedit",[$users->id])}}">
+        <form method="post" action="{{route('userpostedit',[$users->id])}}">
             @csrf
             @method('PUT')
             <div class="field">
                 <label class="label" for="title">Name</label>
 
                 <div class="control">
-                    <input class="input" type="text" name="Name" id="Name" value="{{$users->name}}">
+                    <input class="input" type="text" name="name" id="Name" value="{{$users->name}}">
                 </div>
 
                 <div class="field">

@@ -38,27 +38,37 @@ class UserController extends Controller
 
 
     /**
+    /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\users
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View
+     * @param  \App\Models\User $users
+     * @return \Illuminate\Http\Response
      */
     public function edit(User $users)
     {
-        return view('edit',['users'=> $users]);
+//        dd($users);
+        return view('Backend.edit', compact("users"));
 
     }
-
-    public function update(Request $request, $id)
+    /**
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\User  $users
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, User $users)
     {
-        $data = $request->validate([
-            'name' => 'required',
-            'email' => 'required',
-        ]);
+        $users->update(request()->validate(
+            [
+                "name" => 'required',
+                'email' => 'required',
 
-        User::where('id', $id)->update(['name' => $data['name'],'email' => $data['email']]);
+            ]));
+        return redirect()->route('userindex');
 
-        return redirect('userindex');
+
 
     }
 

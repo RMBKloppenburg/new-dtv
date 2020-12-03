@@ -21,7 +21,7 @@
                     <td>{{$leden->email}}</td>
                     <td>{{$leden->password}}</td>
                     <td>
-                        <form method="post" action="{{route("useredit",[$leden->id])}}">@csrf @method('edit')<button class="button is-link" type="submit">Edit</button></form>
+                        <a href="{{route("useredit",[$leden->id])}}">Edit</a>
                     </td>
                     <td>
                         <form method="post" action="{{route("userdelete",[$leden->id])}}">@csrf @method('DELETE')<button class="button is-link" type="submit">Delete</button></form></td>

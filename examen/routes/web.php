@@ -32,8 +32,8 @@ Route::get('/adminlogin', function () {
 });
 Route::get('/usermanage', [App\Http\Controllers\UserController::class, 'index'])->name('userindex');
 Route::delete('/usermanage{User}', [App\Http\Controllers\UserController::class, 'destroy'])->name('userdelete');
-Route::put('/usermanage{User}', [App\Http\Controllers\UserController::class, 'update'])->name('userpostedit');
-Route::get('/usermanage{User}', [App\Http\Controllers\UserController::class, 'edit'])->name('useredit');
+Route::get('/usermanage{users}', [App\Http\Controllers\UserController::class, 'edit'])->name('useredit');
+Route::put('/usermanage{users}', [App\Http\Controllers\UserController::class, 'update'])->name('userpostedit');
 
 
 
