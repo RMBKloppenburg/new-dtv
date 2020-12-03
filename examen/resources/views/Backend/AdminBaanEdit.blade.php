@@ -9,7 +9,6 @@
                 {{--                register form--}}
                 <form method="POST" action="{{route('editpostbaan',[$banen->id])}}" class="templatemo-login-form">
                     @csrf
-
 {{--                    afmetingen--}}
                     <div class="form-group">
                         <label >Afmetingen</label>
@@ -31,7 +30,7 @@
                         <input type="date" value="{{$banen->servicedatum}}" name="servicedatum" class="form-control">
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="templatemo-blue-button">Toevoegen</button>
+                        <button type="submit" class="templatemo-blue-button">Opslaan</button>
                     </div>
                 </form>
             </div>
