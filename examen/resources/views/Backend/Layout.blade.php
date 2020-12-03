@@ -29,16 +29,15 @@
 <body>
 <!-- Left column -->
 <div class="templatemo-flex-row">
-    <div class="templatemo-sidebar">
-        <header class="templatemo-site-header">
-            <div class="square"></div>
-            <h1>DTV Admin</h1>
-        </header>
-        <div class="profile-photo-container">
-            <img src="BackEndassets/images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
-            <div class="profile-photo-overlay"></div>
-        </div>
-
+	<div class="templatemo-sidebar">
+		<header class="templatemo-site-header">
+			<div class="square"></div>
+			<h1>DTV Admin</h1>
+		</header>
+		<div class="profile-photo-container">
+			<img src="/BackEndassets/images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
+			<div class="profile-photo-overlay"></div>
+		</div>
         <nav class="templatemo-left-nav">
             <ul>
                 <li><a href="/admin" class="active"><i class="fa fa-home fa-fw"></i>Dashboard</a></li>
