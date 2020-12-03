@@ -34,7 +34,7 @@
 			<h1>DTV Admin</h1>
 		</header>
 		<div class="profile-photo-container">
-			<img src="BackEndassets/images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
+			<img src="/BackEndassets/images/profile-photo.jpg" alt="Profile Photo" class="img-responsive">
 			<div class="profile-photo-overlay"></div>
 		</div>
 
