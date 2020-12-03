@@ -32,7 +32,7 @@ class KantineController extends Controller
     public function create()
     {
         //aanmaken :)
-        return view('Backend.createKantine');
+        return view('Backend.CreateKantine');
     }
 
     /**
@@ -43,14 +43,11 @@ class KantineController extends Controller
      */
     public function store(Request $request)
     {
-        //dd($request->all());
         //Opslaan van de aangemaakte data
-
         Kantine::create(request()->validate(
             [
                 "naam" => 'required',
                 'catogorie' => 'required',
-                'bedrijf' => 'required',
                 'prijs' => 'required',
                 'soort' => 'required',
                 'hoeveelheid' => 'required'
@@ -115,7 +112,6 @@ class KantineController extends Controller
             [
                 "naam" => 'required',
                 'catogorie' => 'required',
-                'bedrijf' => 'required',
                 'prijs' => 'required',
                 'soort' => 'required',
                 'hoeveelheid' => 'required'
