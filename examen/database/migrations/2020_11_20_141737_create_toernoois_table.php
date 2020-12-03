@@ -17,14 +17,13 @@ class CreateToernooisTable extends Migration
         {
             //toernooi ID
             $table->id();
-            //Baancode
-            $table->foreignId("baancode")->constrained("baans");
-            //lid nummer
+//            $table->foreignId("baancode")->constrained("baans");
             //$table->foreignId("userid")->constrained("users");
-            //toernooi beschrijving
             $table->text("beschrijving")->nullable();
+            $table->text("maxspelers")->nullable();
             //datum van het toernooi
             $table->date("toernooidatum");
+            $table->date("toernooieinddatum");
             $table->timestamps();
         });
     }
