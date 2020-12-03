@@ -42,11 +42,17 @@ Route::get('/admin', function () {
 });
 Route::get('/adminlogin', function () {
     return view('Backend.AdminLogin');
+});
+Route::get('/usermanage', [App\Http\Controllers\UserController::class, 'index'])->name('userindex');
+Route::delete('/usermanage{User}', [App\Http\Controllers\UserController::class, 'destroy'])->name('userdelete');
+Route::get('/usermanage{users}', [App\Http\Controllers\UserController::class, 'edit'])->name('useredit');
+Route::put('/usermanage{users}', [App\Http\Controllers\UserController::class, 'update'])->name('userpostedit');
 
-});Route::get('/usermanage', function () {
-    return view('Backend.AdminUserManage');
 
-});Route::get('/pref', function () {
+
+Route::get('/pref',
+    function () {
+
     return view('Backend.preferences');
 });
 

@@ -41,6 +41,7 @@
 		<nav class="templatemo-left-nav">
 			<ul>
 				<li><a href="/admin" class="active"><i class="fa fa-home fa-fw"></i>Dashboard</a></li>
+				<li><a href="{{route('userindex')}}"><i class="fa fa-users fa-fw"></i>Manage Users</a></li>
 				<li><a href="/usermanage"><i class="fa fa-users fa-fw"></i>Manage Users</a></li>
 				<li><a href="{{route('adminbaans')}}"><i class="fa fa-sliders fa-fw"></i>Baanen</a></li>
 				<li><a href="{{route('adminkantine')}}"><i class="fa fa-sliders fa-fw"></i>Kantine</a></li>
