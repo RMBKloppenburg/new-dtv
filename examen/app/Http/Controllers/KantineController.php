@@ -47,10 +47,8 @@ class KantineController extends Controller
         Kantine::create(request()->validate(
             [
                 "naam" => 'required',
-                'catogorie' => 'required',
                 'prijs' => 'required',
                 'soort' => 'required',
-                'hoeveelheid' => 'required'
             ]));
         return redirect()->route('adminkantine');
 
@@ -58,11 +56,8 @@ class KantineController extends Controller
         $request->validate(
         [
         "naam" => 'required',
-        'catogorie' => 'required',
-        'bedrijf' => 'required',
         'prijs' => 'required',
         'soort' => 'required',
-        'hoeveelheid' => 'required'
         ]);
         Kantine::create($request->all());
         return redirect()->route('kantine');*/
@@ -111,10 +106,8 @@ class KantineController extends Controller
         $kantine->update(request()->validate(
             [
                 "naam" => 'required',
-                'catogorie' => 'required',
                 'prijs' => 'required',
                 'soort' => 'required',
-                'hoeveelheid' => 'required'
             ]));
         return redirect()->route('adminkantine');
         /**

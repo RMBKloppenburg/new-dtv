@@ -46,40 +46,36 @@ class DatabaseSeeder extends Seeder
 		DB::table("kantines")->insert
 		([
 			'naam' => "Broodje Kip Chili",
-			'catogorie' => "Brood",
 			'prijs' => 4.99,
 			'soort' => 1,
-			'hoeveelheid' => 12,
+			//'hoeveelheid' => 12,
 
 		]);
 
 		DB::table("kantines")->insert
 		([
 			'naam' => "Pepsi Cola Max",
-			'catogorie' => "Cola",
 			'prijs' => 2.45,
 			'soort' => 2,
-			'hoeveelheid' => 47,
+			//'hoeveelheid' => 47,
 
 		]);
 
 		DB::table("kantines")->insert
 		([
 			'naam' => "Kip Sate",
-			'catogorie' => "Kip",
 			'prijs' => 3.49,
 			'soort' => 1,
-			'hoeveelheid' => 22,
+			//'hoeveelheid' => 22,
 
 		]);
 
 		DB::table("kantines")->insert
 		([
 			'naam' => "Cappuccino",
-			'catogorie' => "Koffie",
 			'prijs' => 2.99,
 			'soort' => 2,
-			'hoeveelheid' => 56,
+			//'hoeveelheid' => 56,
 
 		]);
 
@@ -93,10 +89,10 @@ class DatabaseSeeder extends Seeder
 		DB::table("toernoois")->insert
 		([
 			//
-			'baancode' => "1",
+			//'baancode' => "1",
 			//'lidid' => "1",
-			'beschrijving' => "Dit is de eerste toernooi",
-			'toernooidatum' => Carbon::tomorrow(),
+			//'beschrijving' => "Dit is de eerste toernooi",
+			//'toernooidatum' => Carbon::tomorrow(),
 		]);
     }
 }

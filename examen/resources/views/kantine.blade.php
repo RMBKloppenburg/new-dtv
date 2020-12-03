@@ -29,7 +29,7 @@
 						<tr>
 							<!-- Hier wordt elk product gegeven -->
 							<td>{{$product->naam}}</td>
-							<td>{{$product->prijs}}</td>
+							<td>€{{$product->prijs}}</td>
                             @if($product->soort == 1)
                                 <td>Snack</td>
                             @elseif($product->soort == 2)

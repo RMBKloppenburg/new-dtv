@@ -18,16 +18,12 @@ class CreateKantinesTable extends Migration
             $table->id();
             //product naam, zoals Patatje met
             $table->String("naam");
-            // Catogorie zoals brood
-            $table->String("catogorie");
-            //Merk bedrijf, zoals coca cola
-            $table->String("bedrijf")->nullable();
             //Prijs van het product
             $table->Double("prijs");
             //1 = Snack, 2 = Drank
             $table->Integer("soort");
             //Hoeveelheid er nog op voorraad is
-            $table->Integer("hoeveelheid");
+            //$table->Integer("hoeveelheid");
             $table->timestamps();
         });
     }
