@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/examen/public/FrontEndAssets/img/tennis-wallpapers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen/resources/views/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/public/FrontEndAssets/css/templatemo-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/examen/public/FrontEndAssets/css/templatemo-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/layouts/overlay-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/layouts/overlay-menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/platform_check.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/CreateKantine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/CreateKantine.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/EditKantine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/EditKantine.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/KantineBackend.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/KantineBackend.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +15,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,16 +51,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1l3kYcJRPmHAnYXdJhdpFFgkpjC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/examen/public/FrontEndAssets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -84,19 +72,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new-dtv\examen\app\Models" />
+      <recent name="C:\xampp\htdocs\new-dtv\examen\app" />
+      <recent name="C:\xampp\htdocs\new-dtv\examen\app\Http" />
       <recent name="C:\xampp\htdocs\new-dtv\examen\resources\views" />
       <recent name="C:\xampp\htdocs\new-dtv\examen\public\FrontendAssets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\new-dtv\examen\public\FrontEndAssets\img" />
-      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen\database\migrations" />
-      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen\resources\views" />
-      <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen\public" />
-    </key>
-    
-    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new-dtv\examen\resources\views\Backend" />
       <recent name="C:\Users\Koen\Documents\GitHub\new-dtv\examen" />
       <recent name="C:\xampp\htdocs\new-dtv\examen" />
     </key>
@@ -113,17 +97,19 @@
       <option name="presentableId" value="Default" />
       <updated>1606833210677</updated>
       <workItem from="1606833211840" duration="2055000" />
-
       <workItem from="1606847492838" duration="10768000" />
       <workItem from="1606847492838" duration="1665000" />
       <workItem from="1606851171394" duration="4986000" />
+      <workItem from="1606923962502" duration="907000" />
+      <workItem from="1606939433175" duration="3970000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
@@ -131,6 +117,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606852667079" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606940785760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606924659037" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606940785760" />
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606880052192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606880052192" />
     <state x="496" y="88" key="CommitChangelistDialog2" timestamp="1606848804701">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -143,9 +138,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606851232804" />
-    <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1606859102045">
+    <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1606880654416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="260" width="604" height="520" key="find.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606859102045" />
+    <state x="658" y="260" width="604" height="520" key="find.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606880654416" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1606872565000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606872565000" />
   </component>
 </project>
