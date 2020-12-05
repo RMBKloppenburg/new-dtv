@@ -8,11 +8,6 @@
                 <div class="inner">
                     <h1>Welcome to <em>DTV</em></h1>
                     <p>Doetinchemse tennis vereniging</p>
-                    <div class="scroll-icon">
-                        <a class="scrollTo" data-scrollTo="portfolio" href="#"><img
-                                src="FrontEndassets/img/scroll-icon.png"
-                                alt=""></a>
-                    </div>
                 </div>
             </div>
             <video autoplay="" loop="" muted>

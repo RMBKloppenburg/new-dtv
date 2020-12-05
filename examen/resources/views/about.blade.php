@@ -5,7 +5,7 @@
     <div class="page-heading">
         <div class="container">
             <div class="heading-content">
-                <h1>Over <em>ons</em></h1>
+                <h1>Over ons</h1>
             </div>
         </div>
     </div>
@@ -27,8 +27,6 @@
                     <br><p>Tel: 035226522323</p>
                     <br><p>email: info@dtv.nl</p>
                     <br><p>adress: placeholderstraat 15  6941AE Doetinchem</p>
-                    <div class="simple-btn">
-                    </div>
                 </div>
             </div>
         </div>

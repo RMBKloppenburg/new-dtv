@@ -45,7 +45,6 @@
                 <li><a href="{{route('adminbaans')}}"><i class="fa fa-sliders fa-fw"></i>Banen</a></li>
                 <li><a href="{{route('toernooiindex')}}"><i class="fa fa-sliders fa-fw"></i>Manage Toernooien</a></li>
                 <li><a href="{{route('adminkantine')}}"><i class="fa fa-sliders fa-fw"></i>Kantine</a></li>
-                <li><a href="/pref"><i class="fa fa-sliders fa-fw"></i>Preferences</a></li>
                 <li><a href="/adminlogin"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>
             </ul>
         </nav>
