@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/about.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/layouts/frontLayout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Layouts/frontLayout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/layouts/overlay-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Layouts/overlay-menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <recent name="C:\xampp\htdocs\new-dtv\examen" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,6 +100,7 @@
       <workItem from="1606923962502" duration="907000" />
       <workItem from="1606939433175" duration="3970000" />
       <workItem from="1606997307858" duration="949000" />
+      <workItem from="1607534184311" duration="3274000" />
     </task>
     <servers />
   </component>
