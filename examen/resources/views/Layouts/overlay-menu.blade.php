@@ -4,10 +4,10 @@
             <div class="main-menu">
                 <ul>
                     <li>
-                        <a href="/">Home <em>pagina</em></a>
+                        <a href="/">Homepagina</a>
                     </li>
                     <li>
-                        <a href="/over-DTV">Over <em>ons</em></a>
+                        <a href="/over-DTV">Over ons</a>
                     </li>
                     <li>
                         <a href="{{route('klantkantine')}}">Kantine</a>
@@ -16,7 +16,7 @@
                         <a href="{{ route('login') }}">login</a>
                     </li>
                     <li>
-                        <a href="{{ route('register') }}"><em>Registreer</em></a>
+                        <a href="{{ route('register') }}">Registreer</a>
                     </li>
                 </ul>
 {{--                <div>--}}
