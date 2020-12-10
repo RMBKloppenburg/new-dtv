@@ -9,7 +9,7 @@
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Models/User.php" afterDir="false" />>>>>>>> main
       <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/auth/register.blade.php" afterDir="false" />

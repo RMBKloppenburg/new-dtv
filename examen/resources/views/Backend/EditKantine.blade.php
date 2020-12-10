@@ -7,8 +7,6 @@
 		@method("put")
 		<label>Product</label> <br>
 		<input type="text" id="naam" name="naam" value="{{$kantine->naam}}"> <br>
-		<label>Catogorie</label> <br>
-		<input type="text" id="catogorie" name="catogorie" value="{{$kantine->catogorie}}"> <br>
         <!--<label>Bedrijf</label> <br>
         <input type="text" id="bedrijf" name="bedrijf" value="{$kantine->bedrijf}"> <br>-->
 
@@ -30,9 +28,6 @@
         </select>
         <br>
         <br>
-		<label>Hoeveelheid</label> <br>
-		<input type="number" id="hoeveelheid" name="hoeveelheid" value="{{$kantine->hoeveelheid}}"> <br>
-		<br>
 		<input type="submit" value="Submit">
 
 	</form>
