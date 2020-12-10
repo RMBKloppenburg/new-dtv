@@ -45,7 +45,14 @@
                 <li><a href="{{route('adminbaans')}}"><i class="fa fa-sliders fa-fw"></i>Banen</a></li>
                 <li><a href="{{route('toernooiindex')}}"><i class="fa fa-sliders fa-fw"></i>Manage Toernooien</a></li>
                 <li><a href="{{route('adminkantine')}}"><i class="fa fa-sliders fa-fw"></i>Kantine</a></li>
-                <li><a href="/adminlogin"><i class="fa fa-eject fa-fw"></i>Sign Out</a></li>
+                <li><a class="dropdown-item" href="" onclick="event.preventDefault();
+                          document.getElementById('logout-form').submit();">
+                        <i class="fa fa-location-arrow fa-fw"></i>logout
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                        @csrf
+                    </form></li>
             </ul>
         </nav>
     </div>

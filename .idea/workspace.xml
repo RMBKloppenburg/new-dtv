@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cf217d-c583-436e-8794-67726b4b00dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/examen/app/Http/Middleware/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen/database/migrations/2020_12_09_203440_alter_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Controllers/BaanController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/Backend/Layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/examen/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlowerpowerNathan" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -100,7 +110,7 @@
       <workItem from="1606923962502" duration="907000" />
       <workItem from="1606939433175" duration="3970000" />
       <workItem from="1606997307858" duration="949000" />
-      <workItem from="1607534184311" duration="3274000" />
+      <workItem from="1607534184311" duration="15876000" />
     </task>
     <servers />
   </component>
@@ -110,40 +120,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="618" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606852667079">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="618" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606852667079" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606940785760">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1606924659037" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606940785760" />
-    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606880052192">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606880052192" />
-    <state x="496" y="88" key="CommitChangelistDialog2" timestamp="1606848804701">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="496" y="88" key="CommitChangelistDialog2/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606848804701" />
-    <state x="491" y="165" key="SettingsEditor" timestamp="1606855047584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="491" y="165" key="SettingsEditor/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606855047584" />
-    <state x="486" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606851232804">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="486" y="248" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606851232804" />
-    <state x="658" y="260" width="604" height="520" key="find.popup" timestamp="1606880654416">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="658" y="260" width="604" height="520" key="find.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606880654416" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1606872565000">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" key="search.everywhere.popup/1920.21.1804.1008/0.0.1920.1040@0.0.1920.1040" timestamp="1606872565000" />
   </component>
 </project>

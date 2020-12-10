@@ -56,9 +56,8 @@ class BaanController extends Controller
      */
     public function edit($id)
     {
-        //dd($id);
         $baan = new Baan();
-        $baan = $baan->find($id)->first();
+        $baan = $baan->find($id);
 
         return view('Backend.AdminBaanEdit', ['banen' => $baan]);
     }
