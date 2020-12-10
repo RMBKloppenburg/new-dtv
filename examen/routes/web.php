@@ -45,6 +45,9 @@ Route::post('/adminbaan-edit/{id}', [App\Http\Controllers\BaanController::class,
 Route::delete('/adminbaan{baan}', [App\Http\Controllers\BaanController::class, 'destroy'])->name('destroybaan')->middleware('admin');
 
 //users---------------------------------
+//user create
+Route::get("/usercreate", [App\Http\Controllers\UserController::class, "create"])->name("usercreate")->middleware('admin');
+Route::post("/usercreate", [App\Http\Controllers\UserController::class, "store"])->name("userstore")->middleware('admin');
 //user index
 Route::get('/usermanage', [App\Http\Controllers\UserController::class, 'index'])->name('userindex')->middleware('admin');
 //user delete
